@@ -7,6 +7,8 @@ import { GLTFLoader} from './node_modules/three/examples/jsm/loaders/GLTFLoader.
 const canvas = document.querySelector('.webgl')
 const scene = new THREE.Scene()
 
+
+
 const loader = new GLTFLoader()
 
 loader.load('assets/airplane.glb', function (glb){
